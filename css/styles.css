@@ -13,6 +13,7 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--main-color);
   box-sizing: border-box;
+  margin: 0;
 }
 
 img {
@@ -27,8 +28,6 @@ img {
   margin-right: auto;
   width: 1170px;
   align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .logo {
@@ -91,19 +90,27 @@ img {
 .contacts-list {
   display: flex;
   margin-left: auto;
+  margin-right: 30px;
 }
 
 .contacts-link {
   text-decoration: none;
   color: var(--main-color);
-  font-style: Medium;
+  font-style: medium;
   font-size: 14px;
   line-height: 1.14;
   line-height: 100%;
-  align: Left;
-  vertical-align: Top;
+  align: left;
+  vertical-align: top;
   letter-spacing: 2%;
+}
+
+.contacts-list :first-child {
   margin-right: 30px;
+}
+
+.contacts-list :last-child {
+  margin-right: 0;
 }
 
 .button-list {
@@ -338,6 +345,7 @@ a .variants {
 
 .team-list {
   display: flex;
+  justify-content: center;
 }
 
 .team-list-item:not(:last-child) {
@@ -346,6 +354,12 @@ a .variants {
 
 .team-container {
   background-color: #f5f4fa;
+  width: 1600px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-title {
