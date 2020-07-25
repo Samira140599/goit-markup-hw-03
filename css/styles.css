@@ -23,6 +23,12 @@ img {
 /*ШАПКА*/
 
 .header {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-container {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -266,8 +272,8 @@ img {
   text-align: Center;
   vertical-align: Top;
   letter-spacing: 6%;
-  margin-bottom: 30px;
   padding-top: 200px;
+  margin: 0;
 }
 
 .advantages-list {
@@ -332,6 +338,7 @@ a .variants {
   min-width: 200px;
   text-align: center;
   margin-bottom: 200px;
+  margin-top: 30px;
 }
 
 .descriptions {
