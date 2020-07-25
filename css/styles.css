@@ -24,6 +24,7 @@ img {
 
 .header {
   width: 1600px;
+  height: 80px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -33,6 +34,9 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
+  height: 80px;
+  padding-right: 15px;
+  padding-left: 15px;
   align-items: center;
 }
 
@@ -75,7 +79,7 @@ img {
   text-decoration: none;
   color: #212121;
   font-family: Roboto;
-  font-style: medium;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   line-height: 100%;
@@ -102,7 +106,7 @@ img {
 .contacts-link {
   text-decoration: none;
   color: var(--main-color);
-  font-style: medium;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   line-height: 100%;
@@ -138,7 +142,7 @@ img {
 }
 
 .examples-button {
-  font-style: medium;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   line-height: 139%;
@@ -190,7 +194,7 @@ img {
 
 .porfolio-title {
   color: var(--dark-color);
-  font-style: Bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   line-height: 171%;
@@ -202,7 +206,7 @@ img {
 }
 
 .porfolio-type {
-  font-style: 16px;
+  font-size: 16px;
   line-height: 1.2;
   line-height: 160%;
   align: Left;
@@ -215,7 +219,7 @@ img {
 .logo-footer {
   font-family: Raleway, sans-serif;
   color: #ffffff;
-  font-style: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 3%;
@@ -228,7 +232,7 @@ img {
 
 .section-title {
   color: var(--dark-color);
-  font-style: Bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   line-height: 100%;
@@ -249,7 +253,7 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
@@ -265,7 +269,6 @@ img {
 }
 
 .hero-title {
-  font-style: Black;
   font-size: 44px;
   line-height: 1.36;
   line-height: 116%;
@@ -293,7 +296,7 @@ img {
 
 .advantages-title {
   color: var(--dark-color);
-  font-style: Bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   line-height: 100%;
@@ -305,7 +308,7 @@ img {
 }
 
 a .variants {
-  font-style: Bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   line-height: 100%;
@@ -326,7 +329,7 @@ a .variants {
 
 .button {
   background-color: var(--accent-color);
-  font-style: Bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   line-height: 160%;
@@ -373,7 +376,7 @@ a .variants {
 .team-title {
   margin: 0em;
   color: var(--dark-color);
-  font-style: Bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   line-height: 100%;
@@ -383,7 +386,7 @@ a .variants {
 
 .names-item {
   color: #212121;
-  font-style: Medium;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   line-height: 100%;
@@ -428,7 +431,7 @@ a .variants {
 }
 
 .join-us {
-  font-style: Bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   line-height: 100%;
@@ -455,7 +458,7 @@ a .variants {
 .contacts-footer-link {
   text-decoration: none;
   color: var(--main-color);
-  font-style: Medium;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   line-height: 100%;
