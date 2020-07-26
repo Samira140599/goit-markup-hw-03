@@ -9,6 +9,18 @@
 
 /*ОБЩИЕ НАСТРОЙКИ*/
 
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /*i=IE6, IE7*/
+  clip: rect(1px 1px 1px 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  weight: 1px !important;
+  overflow: hidden;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-color);
@@ -22,21 +34,12 @@ img {
 
 /*ШАПКА*/
 
-.header {
-  width: 1600px;
-  height: 80px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .header-container {
   display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
-  height: 80px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 15px;
   align-items: center;
 }
 
@@ -115,19 +118,14 @@ img {
   letter-spacing: 2%;
 }
 
-.contacts-list :first-child {
+.contacts-list :not(:last-child) {
   margin-right: 30px;
-}
-
-.contacts-list :last-child {
-  margin-right: 0;
 }
 
 .button-list {
   display: flex;
-  margin-top: 93px;
-  margin-bottom: 50px;
   justify-content: center;
+  margin: 0;
 }
 
 /*ПОРТФОЛИО*/
@@ -135,6 +133,16 @@ img {
 .porfolio {
   color: var(--dark-color);
   background-color: var(--white-color);
+}
+
+.portfolio-container {
+  margin-top: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .button-items:not(:last-child) {
@@ -158,7 +166,6 @@ img {
 .porfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
   margin-top: 0;
   background-color: gray;
 }
@@ -265,7 +272,6 @@ img {
   background-color: grey;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
 }
 
 .hero-title {
@@ -365,7 +371,6 @@ a .variants {
 
 .team-container {
   background-color: #f5f4fa;
-  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   margin-bottom: 94px;
@@ -425,9 +430,16 @@ a .variants {
 
 .footer {
   background-color: #2f303a;
-  padding-top: 60px;
+  padding: 60px 0;
   display: flex;
   align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo-footer {
+  margin-bottom: 20px;
+  display: block;
 }
 
 .join-us {
@@ -451,8 +463,7 @@ a .variants {
 }
 
 .adress {
-  margin-bottom: 9px;
-  margin-top: 9px;
+  margin: 0 0 9px;
 }
 
 .contacts-footer-link {
